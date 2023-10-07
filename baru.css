@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+#logo {
+  font-family: "Yesteryear", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+#home{
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center;
+  background-size:cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+
+.jumbotron {
+  padding: 100px;
+}
+
+.container img {
+  width: 250px !important;
+  height: 250px !important;
+}
+.card {
+  margin: 20px;
+  padding: 0;
+}
+
+.card img{
+  width: 18rem;
+}
+
+a .a {
+  opacity: 0;
+  transition: 0.5s;
+  transform: translate(0, -40px);
+}
+
+a a.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
